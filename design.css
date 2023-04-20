@@ -1,3 +1,7 @@
+* {
+  font-family: "Montserrat";
+}
+
 ul li {
   list-style: none;
   padding-right: 32px;
@@ -22,7 +26,7 @@ ul li a:hover {
 }
 
 .content {
-  padding: 100px 0 100px 0;
+  padding: 167.1875px 0 100px 0;
   color: rgb(255, 252, 252);
   background-image: url(./images/sky.jpg);
   background-size: cover;
@@ -30,9 +34,22 @@ ul li a:hover {
   background-position: center;
 }
 
+@media (max-width: 992px) {
+  .content {
+    padding-top: 172px;
+  }
+}
 .feature-box {
   position: relative;
   padding: 15px 20px 15px 70px;
+}
+.feature-box h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.feature-box p {
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
 .feature-box i {
   font-size: 30px;
@@ -81,4 +98,25 @@ footer a {
 
 .copyright {
   background-color: #222425;
+}
+
+.feature-container {
+  margin-top: 67.1875px;
+  padding: 150px;
+}
+
+@media (max-width: 992px) {
+  .feature-container {
+    margin-top: 72px;
+  }
+}
+.about-container {
+  margin-top: 67.1875px;
+  padding: 150px;
+}
+
+@media (max-width: 992px) {
+  .about-container {
+    margin-top: 72px;
+  }
 }/*# sourceMappingURL=design.css.map */

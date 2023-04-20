@@ -1,3 +1,7 @@
+* {
+  font-family: "Montserrat";
+}
+// home page
 ul {
   li {
     list-style: none;
@@ -25,16 +29,29 @@ ul {
   color: black;
 }
 .content {
-  padding: 100px 0 100px 0;
+  padding: 167.1875px 0 100px 0;
   color: rgb(255, 252, 252);
   background-image: url(./images/sky.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (max-width: 992px) {
+  .content {
+    padding-top: 172px;
+  }
+}
 .feature-box {
   position: relative;
   padding: 15px 20px 15px 70px;
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
   i {
     font-size: 30px;
     position: absolute;
@@ -78,3 +95,27 @@ footer {
 .copyright {
   background-color: #222425;
 }
+// end of home page
+
+// feature page
+.feature-container {
+  margin-top: 67.1875px;
+  padding: 150px;
+}
+@media (max-width: 992px) {
+  .feature-container {
+    margin-top: 72px;
+  }
+}
+// end feature page
+// about us page
+.about-container {
+  margin-top: 67.1875px;
+  padding: 150px;
+}
+@media (max-width: 992px) {
+  .about-container {
+    margin-top: 72px;
+  }
+}
+// end about us page
